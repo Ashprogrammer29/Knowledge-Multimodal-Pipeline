@@ -1,0 +1,18 @@
+{
+    "system_decisions": [
+        {
+            "timestamp": 1770356147.323917,
+            "module": "IAL",
+            "decision": "Processed data\\your_test_file.txt",
+            "rationale": "Extracted 60 words."
+        },
+        {
+            "timestamp": 1770356147.3283176,
+            "module": "Summarizer",
+            "decision": "Suppressed: ['cell', 'cells', 'organism', 'life', 'biology']",
+            "rationale": "Applied Domain-Awareness to prioritize niche technical terms."
+        }
+    ],
+    "performance_metrics": {},
+    "extraction_stats": {}
+}
