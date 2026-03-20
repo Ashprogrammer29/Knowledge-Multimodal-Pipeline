@@ -59,11 +59,11 @@ Using Docker (Recommended)
 To ensure environment parity for the multimodal rendering engines:
 
 
-# Build the image
+### Build the image
 
 docker build -t knowledge-pipeline:latest .
 
-# Run the pipeline on your data
+### Run the pipeline on your data
 
 docker run -v $(pwd)/data:/app/data -v $(pwd)/output:/app/output knowledge-pipeline:latest
 
